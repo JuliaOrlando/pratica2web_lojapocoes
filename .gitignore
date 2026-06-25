@@ -1,0 +1,10 @@
+node_modules/
+venv/
+.agents/
+.codex/
+.env
+*.log
+P2_pratica_2.pdf
+npm-debug.log*
+package-lock.json.tmp
+.DS_Store

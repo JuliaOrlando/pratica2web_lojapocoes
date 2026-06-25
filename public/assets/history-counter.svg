@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Balcão antigo de preparo</title>
+  <desc id="desc">Balcão antigo com caldeirão, balança e frascos.</desc>
+  <rect width="640" height="640" fill="#15100d"/>
+  <rect x="72" y="370" width="496" height="166" fill="#3b221a" stroke="#c79653" stroke-width="8"/>
+  <rect x="92" y="404" width="128" height="94" fill="#2a1813" stroke="#c79653" stroke-width="4"/>
+  <rect x="256" y="404" width="128" height="94" fill="#2a1813" stroke="#c79653" stroke-width="4"/>
+  <rect x="420" y="404" width="128" height="94" fill="#2a1813" stroke="#c79653" stroke-width="4"/>
+  <path d="M216 328c0 70 44 106 104 106s104-36 104-106z" fill="#5f2320" stroke="#e6d8bf" stroke-width="8"/>
+  <ellipse cx="320" cy="328" rx="116" ry="28" fill="#8d3a32" stroke="#e6d8bf" stroke-width="8"/>
+  <path d="M218 244c-36-30-7-62 22-80M316 236c-38-50 28-75 12-122M414 244c38-35 0-65 32-100" fill="none" stroke="#667a54" stroke-width="10" stroke-linecap="round"/>
+  <path d="M96 304h84v50H96z" fill="#c79653"/>
+  <path d="M492 260h38v94h-38z" fill="#667a54"/>
+  <circle cx="511" cy="238" r="28" fill="#8d3a32"/>
+</svg>

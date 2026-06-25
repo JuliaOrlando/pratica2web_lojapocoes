@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-labelledby="title desc">
+  <title id="title">Fachada da loja Poções e Soluções</title>
+  <desc id="desc">Fachada antiga de uma botica com vitrines iluminadas.</desc>
+  <rect width="900" height="675" fill="#130f0d"/>
+  <rect x="62" y="82" width="776" height="520" fill="#231713"/>
+  <rect x="96" y="124" width="708" height="88" fill="#3b221a" stroke="#c79653" stroke-width="8"/>
+  <text x="450" y="181" fill="#e6d8bf" text-anchor="middle" font-family="Gill Sans, Calibri, sans-serif" font-size="48">POÇÕES E SOLUÇÕES</text>
+  <rect x="126" y="254" width="220" height="292" fill="#0f1914" stroke="#c79653" stroke-width="8"/>
+  <rect x="554" y="254" width="220" height="292" fill="#0f1914" stroke="#c79653" stroke-width="8"/>
+  <rect x="382" y="250" width="136" height="352" fill="#5f2320" stroke="#c79653" stroke-width="8"/>
+  <circle cx="492" cy="426" r="10" fill="#c79653"/>
+  <g fill="#8d3a32" opacity="0.88">
+    <path d="M174 390h36v84h-36z"/>
+    <path d="M244 340h40v134h-40z"/>
+    <path d="M604 360h46v114h-46z"/>
+    <path d="M684 320h34v154h-34z"/>
+  </g>
+  <g fill="#667a54">
+    <circle cx="192" cy="362" r="24"/>
+    <circle cx="264" cy="312" r="26"/>
+    <circle cx="627" cy="332" r="27"/>
+    <circle cx="701" cy="294" r="22"/>
+  </g>
+  <rect x="92" y="586" width="716" height="28" fill="#c79653"/>
+  <path d="M62 82h776l-66-58H128z" fill="#5f2320"/>
+</svg>

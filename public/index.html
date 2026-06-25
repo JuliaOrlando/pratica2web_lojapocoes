@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poções e Soluções</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Poções e Soluções">
+        <span class="brand-mark">P&S</span>
+        <span>Poções e Soluções</span>
+      </a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#produtos">Produtos</a>
+        <a href="#historia">História</a>
+        <a href="/admin.html">Admin</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro-section">
+        <div class="intro-copy">
+          <p class="eyebrow">Beco da Última Saída desde 1867</p>
+          <h1>Poções e Soluções</h1>
+          <p>
+            A loja de Annabelle Merigold prepara poções clássicas para inspiração,
+            presença, encanto e pequenas emergências do cotidiano mágico.
+          </p>
+          <a class="primary-link" href="#produtos">Ver poções disponíveis</a>
+        </div>
+        <figure class="shop-photo">
+          <img
+            src="/assets/history-shop.svg"
+            alt="Fachada antiga da loja Poções e Soluções"
+          />
+          <figcaption>Fachada preservada no Beco da Última Saída.</figcaption>
+        </figure>
+      </section>
+
+      <section id="produtos" class="products-section" aria-labelledby="products-title">
+        <div class="section-heading">
+          <p class="eyebrow">Catálogo</p>
+          <h2 id="products-title">Poções disponíveis</h2>
+        </div>
+        <div class="products-grid" data-products>
+          <p class="loading-message">Carregando poções...</p>
+        </div>
+      </section>
+
+      <section id="historia" class="history-section" aria-labelledby="history-title">
+        <div class="section-heading">
+          <p class="eyebrow">Histórico</p>
+          <h2 id="history-title">Uma tradição aberta em 1867</h2>
+        </div>
+        <div class="history-layout">
+          <div class="history-text">
+            <p>
+              Fundada em 1867, a Poções e Soluções atravessou gerações mantendo
+              receitas manuscritas, frascos numerados e um atendimento conhecido
+              por resolver problemas improváveis com absoluta discrição.
+            </p>
+            <p>
+              Após a pandemia de COVID-19, Annabelle Merigold decidiu levar o
+              balcão da loja para a web, preservando a atmosfera clássica da
+              botica e tornando o catálogo acessível aos compradores.
+            </p>
+          </div>
+          <div class="history-photos">
+            <figure>
+              <img
+                src="/assets/history-shelves.svg"
+                alt="Prateleiras históricas com frascos de poções"
+              />
+              <figcaption>Prateleiras originais restauradas.</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="/assets/history-counter.svg"
+                alt="Balcão antigo de preparo das poções"
+              />
+              <figcaption>Balcão usado para misturas especiais.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Poções e Soluções</strong>
+        <p>Beco da Última Saída, 1867 - Loja 4</p>
+      </div>
+      <div>
+        <p>contato@pocoesesolucoes.example</p>
+        <p>Atendimento: segunda a sexta, 9h às 18h</p>
+      </div>
+    </footer>
+  </body>
+</html>

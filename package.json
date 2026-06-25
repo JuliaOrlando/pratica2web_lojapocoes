@@ -1,0 +1,24 @@
+{
+  "name": "pocoes-e-solucoes",
+  "version": "1.0.0",
+  "description": "Web service e vitrine de poções para a atividade pratica 2 de desenvolvimento web.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": [
+    "express",
+    "sqlite",
+    "sequelize",
+    "ajax"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  }
+}

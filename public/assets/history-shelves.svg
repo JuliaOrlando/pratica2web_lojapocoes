@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Prateleiras históricas da loja</title>
+  <desc id="desc">Prateleiras antigas com frascos de poções coloridas.</desc>
+  <rect width="640" height="640" fill="#15100d"/>
+  <rect x="70" y="82" width="500" height="476" fill="#211511" stroke="#c79653" stroke-width="6"/>
+  <g stroke="#c79653" stroke-width="8">
+    <path d="M92 214h456"/>
+    <path d="M92 362h456"/>
+    <path d="M92 510h456"/>
+  </g>
+  <g>
+    <path d="M138 118h46v84h-46z" fill="#667a54"/>
+    <path d="M236 106h54v96h-54z" fill="#8d3a32"/>
+    <path d="M374 132h44v70h-44z" fill="#c79653"/>
+    <path d="M462 106h58v96h-58z" fill="#5f2320"/>
+    <path d="M124 262h60v88h-60z" fill="#5f2320"/>
+    <path d="M248 282h48v68h-48z" fill="#667a54"/>
+    <path d="M354 252h70v98h-70z" fill="#8d3a32"/>
+    <path d="M474 274h44v76h-44z" fill="#c79653"/>
+    <path d="M148 418h42v80h-42z" fill="#c79653"/>
+    <path d="M254 402h62v96h-62z" fill="#5f2320"/>
+    <path d="M388 426h48v72h-48z" fill="#667a54"/>
+    <path d="M494 390h40v108h-40z" fill="#8d3a32"/>
+  </g>
+</svg>

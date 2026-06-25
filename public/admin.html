@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Administração - Poções e Soluções</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/admin.js" defer></script>
+  </head>
+  <body class="admin-page">
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Poções e Soluções">
+        <span class="brand-mark">P&S</span>
+        <span>Poções e Soluções</span>
+      </a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="/">Loja</a>
+        <a href="/admin.html" aria-current="page">Admin</a>
+      </nav>
+    </header>
+
+    <main class="admin-main">
+      <section class="admin-panel" aria-labelledby="admin-title">
+        <div class="section-heading">
+          <p class="eyebrow">Administração</p>
+          <h1 id="admin-title">Cadastro de poções</h1>
+        </div>
+
+        <form class="potion-form" data-potion-form>
+          <label>
+            Nome
+            <input name="name" type="text" maxlength="120" required />
+          </label>
+          <label>
+            Descrição
+            <textarea name="description" rows="4" required></textarea>
+          </label>
+          <label>
+            URL ou caminho da imagem
+            <input
+              name="image"
+              type="text"
+              placeholder="https://exemplo.com/pocao.png"
+              required
+            />
+          </label>
+          <label>
+            Preço em moedas
+            <input name="price" type="number" min="0" step="1" required />
+          </label>
+          <button class="primary-button" type="submit">Cadastrar</button>
+          <p class="form-status" data-form-status aria-live="polite"></p>
+        </form>
+      </section>
+
+      <section class="admin-panel" aria-labelledby="list-title">
+        <div class="section-heading">
+          <p class="eyebrow">Lista</p>
+          <h2 id="list-title">Poções cadastradas</h2>
+        </div>
+        <div class="admin-list" data-admin-list>
+          <p class="loading-message">Carregando poções...</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
