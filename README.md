@@ -52,21 +52,3 @@ Exemplo de corpo para cadastro:
 ## Observação sobre o banco
 
 O SQLite está configurado no modo memória (`storage: ":memory:"`), como indicado no enunciado. Por isso, os dados cadastrados manualmente existem enquanto o servidor estiver em execução e são reiniciados quando o servidor é fechado.
-
-## Checklist da atividade
-
-- [x] Usar SQLite em modo memória.
-- [x] Criar Web Service para poções.
-- [x] Permitir cadastrar poções.
-- [x] Permitir listar poções.
-- [x] Permitir remover poções.
-- [x] Incluir campos nome, descrição, imagem e preço.
-- [x] Criar página administrativa.
-- [x] Criar página pública para compradores.
-- [x] Incluir descrição da loja.
-- [x] Incluir histórico da loja criada em 1867 com fotos.
-- [x] Incluir rodapé com contato.
-- [x] Exibir produtos com nome, imagem, descrição, preço e botão Comprar.
-- [x] Usar JavaScript e AJAX para recuperar dados do Web Service.
-- [x] Usar fonte clássica/sóbria com Gill Sans e paleta escura.
-- [x] Documentar configuração e execução no README.
